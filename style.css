@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+
+body {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.calculator {
+    text-align: left;
+    width: 70%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+/* The Input Section */
+.bill, .select-tip {
+    margin-bottom: 40px;
+}
+
+.input-section {
+    padding: 0 50px 0px 20px;
+    color: hsl(186, 14%, 43%);
+}
+
+.input-lg {
+    text-align: right;
+    font-size: 1.4rem;
+    color: hsl(186, 14%, 43%);
+    width: 100%;
+    padding: 10px 30px;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.input-bill {
+    background: url(images/icon-dollar.svg) no-repeat scroll 15px 18px;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.input-nb-people {
+    background: url(images/icon-person.svg) no-repeat scroll 15px 18px;
+    background-color: hsl(189, 41%, 97%);
+}
+
+.input-sm {
+    text-align: center;
+    font-size: 1.4rem;
+    color: hsl(186, 14%, 43%);
+    width: 100%;
+    border: 0;
+    background-color: hsl(189, 41%, 97%);
+}
+
+
+.tip-btn {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
+    font-size: 1.4rem;
+}
+
+.tip-btn:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.zero {
+    text-align: right;
+    color: hsl(15, 31%, 58%);
+}
+
+
+
+/* The Output Section */
+.output-section {
+    background-color: hsl(183, 100%, 15%);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.output-section h1 {
+    color: hsl(172, 66%, 45%);
+    text-align: right;
+}
+
+.output-section h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+}
+
+.output-section p {
+    color: hsl(184, 14%, 56%);
+}
+
+.reset-btn {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(186, 14%, 43%);
+    margin-top: 150px;
+}
+
+.reset-btn:hover {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(186, 14%, 43%);
+}
+
+
+
+/* Footer */
+.attribution {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+/* Medium Devices */
+@media screen and (min-width: 992px) and (max-width : 1250px) {
+    .calculator {
+        width: 80%;
+    }
+}
+
+/* Small Devices */
+@media screen and (max-width: 992px) {
+    body {
+        padding: 0;
+    }
+
+    .calculator {
+        width: 100%;
+        padding: 50px 80px;
+        /* border-end-end-radius : 0px; */
+    }
+
+    .input-section {
+        padding: 0;
+    }
+
+    .output-section {
+        margin-top: 50px;
+        padding: 50px 25px 25px;
+    }
+
+    .reset-btn {
+        margin-top: 20px;
+    }
+
+    .input-bill {
+        background: url(images/icon-dollar.svg) no-repeat scroll 15px 18px;
+        background-color: hsl(189, 41%, 97%);
+    }
+    
+    .input-nb-people {
+        background: url(images/icon-person.svg) no-repeat scroll 15px 18px;
+        background-color: hsl(189, 41%, 97%);
+    }
+}

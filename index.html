@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+  <img class="logo" src="images/logo.svg" alt="logo">
+
+  <div class="calculator">
+
+    <div class="row">
+
+      <div class="input-section col-lg-6">
+
+        <div class="bill">
+          <label for="bill">Bill</label><br>
+          <input class="input-lg input-bill" type="text" name="bill" id="bill" value="0">
+        </div>
+
+        <div class="select-tip">
+          <p>Select Tip %</p>
+          <div class="row gx-3 gy-3">
+            <div class="col-lg-4 col-6 d-grid">
+              <button class="btn tip-btn" type="button">5%</button>
+            </div>
+            <div class="col-lg-4 col-6 d-grid">
+              <button class="btn tip-btn" type="button">10%</button>
+            </div>
+            <div class="col-lg-4 col-6 d-grid">
+              <button class="btn tip-btn" type="button">15%</button>
+            </div>
+            <div class="col-lg-4 col-6 d-grid">
+              <button class="btn tip-btn" type="button">25%</button>
+            </div>
+            <div class="col-lg-4 col-6 d-grid">
+              <button class="btn tip-btn" type="button">50%</button>
+            </div>
+            <div class="col-lg-4 col-6 d-grid">
+              <input class="input-sm" type="text" id="custom" name="custom" value="Custom">
+            </div>
+          </div>
+        </div>
+
+        <div class="nb-people">
+          
+          <div class="row">
+            <div class="col-6">
+              <label for="nb-people">Number of People</label><br>
+            </div>
+            <div class="col-6 zero">
+              <p>Can't be zero</p>
+            </div>
+
+          </div>
+          <input class="input-lg input-nb-people" type="text" id="nb-people" name="nb-people" value="0"> 
+        </div>
+         
+      </div>
+
+      <div class="output-section col-lg-6">
+        <div class="row">
+          <div class="col-6">
+            <h3>Tip Amount</h3>
+            <p>/ person</p>
+          </div>
+          <div class="col-6">
+            <h1>$0.00</h1>
+          </div>
+
+          <div class="col-6">
+            <h3>Total</h3>
+            <p>/ person</p>
+          </div>
+          <div class="col-6">
+            <h1>$0.00</h1>
+          </div>
+        </div>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-lg reset-btn" type="button">RESET</button>
+        </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://lyes-mersel.netlify.app" target="_blank">Lyes MERSEL</a>.
+    </div>
+  </footer>
+
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <!-- Bootsrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- JS File -->
+  <script src="index.js"></script>
+
+</body>
+
+</html>
