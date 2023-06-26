@@ -25,7 +25,7 @@
 
         <div class="bill">
           <label for="bill">Bill</label><br>
-          <input class="input-lg input-bill" type="text" name="bill" id="bill" value="0">
+          <input class="input-lg input-bill" type="text" name="bill" id="bill" placeholder="0">
         </div>
 
         <div class="select-tip">
@@ -47,7 +47,7 @@
               <button class="btn tip-btn" type="button">50%</button>
             </div>
             <div class="col-lg-4 col-6 d-grid">
-              <input class="input-sm" type="text" id="custom" name="custom" value="Custom">
+              <input class="input-sm" type="text" id="tip-custom" name="tip-custom" placeholder="Custom">
             </div>
           </div>
         </div>
@@ -58,12 +58,12 @@
             <div class="col-6">
               <label for="nb-people">Number of People</label><br>
             </div>
-            <div class="col-6 zero">
+            <div class="col-6 zero hide">
               <p>Can't be zero</p>
             </div>
 
           </div>
-          <input class="input-lg input-nb-people" type="text" id="nb-people" name="nb-people" value="0"> 
+          <input class="input-lg input-nb-people" type="text" id="nb-people" name="nb-people" placeholder="0"> 
         </div>
          
       </div>
@@ -75,7 +75,7 @@
             <p>/ person</p>
           </div>
           <div class="col-6">
-            <h1>$0.00</h1>
+            <h1  id="tip-amount">$0.00</h1>
           </div>
 
           <div class="col-6">
@@ -83,12 +83,12 @@
             <p>/ person</p>
           </div>
           <div class="col-6">
-            <h1>$0.00</h1>
+            <h1  id="total-amount">$0.00</h1>
           </div>
         </div>
 
         <div class="d-grid gap-2">
-          <button class="btn btn-lg reset-btn" type="button">RESET</button>
+          <button class="btn btn-lg reset-btn" type="button" disabled>RESET</button>
         </div>
         
       </div>

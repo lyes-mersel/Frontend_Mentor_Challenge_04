@@ -1,3 +1,4 @@
+/* Google Font : Space Mono */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
 
@@ -41,8 +42,13 @@ body {
     color: hsl(186, 14%, 43%);
     width: 100%;
     padding: 10px 30px;
-    border: 0;
+    border: none;
+    border-radius: 5px;
     background-color: hsl(189, 41%, 97%);
+}
+
+.input-lg:focus {
+    outline: solid 2px hsl(172, 66%, 45%);
 }
 
 .input-bill {
@@ -60,10 +66,18 @@ body {
     font-size: 1.4rem;
     color: hsl(186, 14%, 43%);
     width: 100%;
-    border: 0;
+    border: none;
+    border-radius: 5px;
     background-color: hsl(189, 41%, 97%);
 }
 
+.input-sm:focus {
+    outline: solid 2px hsl(172, 66%, 45%);
+}
+
+.input-red {
+    border: 2px solid hsl(0, 58%, 60%);
+}
 
 .tip-btn {
     color: hsl(0, 0%, 100%);
@@ -75,9 +89,17 @@ body {
     background-color: hsl(185, 41%, 84%);
 }
 
+.tip-selected {
+    background-color: hsl(172, 66%, 45%);
+}
+
 .zero {
     text-align: right;
-    color: hsl(15, 31%, 58%);
+    color: hsl(0, 58%, 60%);
+}
+
+.text-red {
+    color: hsl(0, 58%, 60%);
 }
 
 
@@ -105,13 +127,19 @@ body {
 
 .reset-btn {
     color: hsl(183, 100%, 15%);
-    background-color: hsl(186, 14%, 43%);
+    background-color: hsl(172, 66%, 45%);
     margin-top: 150px;
+    border-radius: 5px;
 }
 
 .reset-btn:hover {
     color: hsl(183, 100%, 15%);
+    background-color: hsl(185, 41%, 84%);
+}
+
+.reset-btn:disabled {
     background-color: hsl(186, 14%, 43%);
+    border: 0;
 }
 
 
