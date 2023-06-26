@@ -8,6 +8,11 @@ body {
     background-color: hsl(185, 41%, 84%);
 }
 
+label, p {
+    margin-bottom: 10px;
+}
+
+
 .logo {
     margin-top: 50px;
 }
@@ -89,7 +94,8 @@ body {
     background-color: hsl(185, 41%, 84%);
 }
 
-.tip-selected {
+.tip-btn:focus, .tip-selected {
+    color: hsl(0, 0%, 100%);
     background-color: hsl(172, 66%, 45%);
 }
 

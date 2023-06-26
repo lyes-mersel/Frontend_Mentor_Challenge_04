@@ -11,10 +11,9 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 
 # Built with
-- HTML5
-- CSS
+- HTML5, CSS3
 - Bootstrap 5.3v
-- JS
+- JavaScript
 - Jquery 3
 
 
